@@ -1,0 +1,22 @@
+op-protection:
+  enabled: true
+  whitelist:
+    - "Player1"
+    - "Player2"
+
+groups:
+  default:
+    # Commands the players are allowed to use
+    commands:
+      - "help"
+      - "list"
+  admin:
+    commands:
+      - "help"
+      - "list"
+      - "kick"
+      - "ban"
+
+group-priority:
+  - "admin"
+  - "default"

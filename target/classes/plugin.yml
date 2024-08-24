@@ -1,0 +1,6 @@
+name: PluginHider
+version: '1.0'
+main: me.athish.pluginHider.PluginHider
+authors: [ Athishh ]
+description: Hide your server plugins
+website: https://itomsd.com
